@@ -1,0 +1,42 @@
+.flex {
+  display: flex; }
+
+.col {
+  flex-direction: column; }
+
+.justify-center {
+  justify-content: center; }
+
+.align-center {
+  align-items: center; }
+
+html, body {
+  height: 100%; }
+
+.game-board-section {
+  height: 75%; }
+
+.title h1 {
+  text-align: center;
+  padding: 2%; }
+
+.game-board-section {
+  width: 75%;
+  margin: 0 auto; }
+
+.board {
+  background-color: red;
+  height: 100%;
+  padding: 3%;
+  width: 80%; }
+
+.row {
+  flex-grow: 1;
+  border: 2px solid black;
+  border-top: none;
+  justify-content: space-between;
+  width: 50%; }
+  .row:first-child {
+    border-top: 2px solid black; }
+  .row button {
+    flex-grow: 1; }

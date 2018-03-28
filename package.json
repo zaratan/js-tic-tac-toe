@@ -1,0 +1,27 @@
+{
+  "name": "babel-webpack",
+  "version": "1.0.0",
+  "description": "tictactoe game in js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --progress --watch"
+  },
+  "browserslist": [
+    "> 1%"
+  ],
+  "author": "coconatsuki",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0"
+  }
+}
